@@ -1,28 +1,50 @@
 <template>
-  <!--<ConditionalComponent/>
-  <LoopingComponent/>
-  <AtributBandingComponent/>
-  <MethodComponent/>-->
-  <NavigasiComponent/>
+  <div class="container">
+    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+      <div class="col-md-3 mb-2 mb-md-0">
+        <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
+             <img alt="Vue logo" src="https://unicorn-toys.com/wp-content/uploads/2021/08/UNICORN-PHENEX.png" width="120" height="120">
+        </a>
+      </div>
+
+      <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+        <li><a href="#" class="nav-link px-2">Home</a></li>
+        <li><a href="#" class="nav-link px-2">Products</a></li>
+        <li><a href="#" class="nav-link px-2">Testimony</a></li>
+        <li><a href="#" class="nav-link px-2">FAQs</a></li>
+        <li><a href="#" class="nav-link px-2">About</a></li>
+      </ul>
+
+      <div class="col-md-3 text-end">
+        <button type="button" class="btn btn-outline-primary me-2" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+        <button type="button" class="btn btn-primary">Sign-up</button>
+      </div>
+    </header>
+    <LoginComponent/> 
+  </div>
+  <HeroesComponent/>
+  <ProductComponent/>
+  <TestimoniComponent/>
+  <FAQsComponet/>
+  <FooterComponent/>
 </template>
 
 <script>
-import NavigasiComponent from './NavigasiComponent.vue';
-//import ConditionalComponent from './ConditionalComponent.vue';
-//import LoopingComponent from './LoopingComponent.vue';
-//import AtributBandingComponent from './AtributBandingComponent.vue';
-//import MethodComponent from './MethodComponent.vue';
+import LoginComponent from './LoginComponent.vue';
+import HeroesComponent from './HeroesComponent.vue';
+import ProductComponent from './ProductsComponent.vue'
+import TestimoniComponent from './TestimoniComponent.vue';
+import FAQsComponet from './FAQsComponet.vue';
+import FooterComponent from './FooterComponet.vue';
 export default {
   name: 'HelloWorld',
-  props: {
-    msg: String
-  },
   components: {
-    //ConditionalComponent,
-    //LoopingComponent,
-    //AtributBandingComponent,
-    //MethodComponent
-    NavigasiComponent
+    LoginComponent,
+    HeroesComponent,
+    ProductComponent,
+    TestimoniComponent,
+    FAQsComponet,
+    FooterComponent
 }
 }
 </script>
@@ -41,6 +63,6 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  color: #888888;
 }
 </style>
