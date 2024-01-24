@@ -11,8 +11,8 @@
           <div class="carousel-item active">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-4">
-                            <img src="../assets/avatar.png" class="bd-placeholder-img rounded-circle" width="250" height="250"/>
+                        <div class="col-4">
+                            <img src="../assets/avatar.png" class="bd-placeholder-img rounded-circle" width="100" height="100"/>
 
                             <h2>John Doe</h2>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure recusandae ullam provident, nulla laudantium fugit quisquam quo velit assumenda id nemo. Quaerat ad sint tempora facere omnis voluptatibus cumque fuga.</p>
@@ -23,7 +23,7 @@
                             </div>
                         </div>
                         <div class="col-lg-4">
-                            <img src="../assets/avatar.png" class="bd-placeholder-img rounded-circle" width="250" height="250"/>
+                            <img src="../assets/avatar.png" class="bd-placeholder-img rounded-circle" width="100" height="100"/>
 
                             <h2>John Doe</h2>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure recusandae ullam provident, nulla laudantium fugit quisquam quo velit assumenda id nemo. Quaerat ad sint tempora facere omnis voluptatibus cumque fuga.</p>
@@ -33,7 +33,7 @@
                             </div>
                         </div>
                         <div class="col-lg-4">
-                            <img src="../assets/avatar.png" class="bd-placeholder-img rounded-circle" width="250" height="250"/>
+                            <img src="../assets/avatar.png" class="bd-placeholder-img rounded-circle" width="100" height="100"/>
 
                             <h2>John Doe</h2>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure recusandae ullam provident, nulla laudantium fugit quisquam quo velit assumenda id nemo. Quaerat ad sint tempora facere omnis voluptatibus cumque fuga.</p>
@@ -49,7 +49,7 @@
             <div class="container">
                     <div class="row">
                         <div class="col-lg-4">
-                            <img src="../assets/avatar.png" class="bd-placeholder-img rounded-circle" width="250" height="250"/>
+                            <img src="../assets/avatar.png" class="bd-placeholder-img rounded-circle" width="100" height="100"/>
 
                             <h2>John Doe</h2>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure recusandae ullam provident, nulla laudantium fugit quisquam quo velit assumenda id nemo. Quaerat ad sint tempora facere omnis voluptatibus cumque fuga.</p>
@@ -59,7 +59,7 @@
                             </div>
                         </div>
                         <div class="col-lg-4">
-                            <img src="../assets/avatar.png" class="bd-placeholder-img rounded-circle" width="250" height="250"/>
+                            <img src="../assets/avatar.png" class="bd-placeholder-img rounded-circle" width="100" height="100"/>
 
                             <h2>John Doe</h2>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure recusandae ullam provident, nulla laudantium fugit quisquam quo velit assumenda id nemo. Quaerat ad sint tempora facere omnis voluptatibus cumque fuga.</p>
@@ -69,7 +69,7 @@
                             </div>
                         </div>
                         <div class="col-lg-4">
-                            <img src="../assets/avatar.png" class="bd-placeholder-img rounded-circle" width="250" height="250"/>
+                            <img src="../assets/avatar.png" class="bd-placeholder-img rounded-circle" width="100" height="100"/>
 
                             <h2>John Doe</h2>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure recusandae ullam provident, nulla laudantium fugit quisquam quo velit assumenda id nemo. Quaerat ad sint tempora facere omnis voluptatibus cumque fuga.</p>
@@ -85,7 +85,7 @@
             <div class="container">
                     <div class="row">
                         <div class="col-lg-4">
-                            <img src="../assets/avatar.png" class="bd-placeholder-img rounded-circle" width="250" height="250"/>
+                            <img src="../assets/avatar.png" class="bd-placeholder-img rounded-circle" width="100" height="100"/>
 
                             <h2>John Doe</h2>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure recusandae ullam provident, nulla laudantium fugit quisquam quo velit assumenda id nemo. Quaerat ad sint tempora facere omnis voluptatibus cumque fuga.</p>
@@ -95,7 +95,7 @@
                             </div>
                         </div>
                         <div class="col-lg-4">
-                            <img src="../assets/avatar.png" class="bd-placeholder-img rounded-circle" width="250" height="250"/>
+                            <img src="../assets/avatar.png" class="bd-placeholder-img rounded-circle" width="100" height="100"/>
 
                             <h2>John Doe</h2>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure recusandae ullam provident, nulla laudantium fugit quisquam quo velit assumenda id nemo. Quaerat ad sint tempora facere omnis voluptatibus cumque fuga.</p>
@@ -105,7 +105,7 @@
                             </div>
                         </div>
                         <div class="col-lg-4">
-                            <img src="../assets/avatar.png" class="bd-placeholder-img rounded-circle" width="250" height="250"/>
+                            <img src="../assets/avatar.png" class="bd-placeholder-img rounded-circle" width="100" height="100"/>
 
                             <h2>John Doe</h2>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure recusandae ullam provident, nulla laudantium fugit quisquam quo velit assumenda id nemo. Quaerat ad sint tempora facere omnis voluptatibus cumque fuga.</p>
@@ -134,7 +134,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,700&family=Oswald:wght@200;700&display=swap');
 #testimoni{
  background-color: #d0d0d0;
- padding-top: 10px;
  margin-bottom: 40px;
     h2{
       font-size: 80px;
@@ -143,6 +142,7 @@
       font-weight: bold;
   
     }
+    
 }
 </style>
 <script>
