@@ -24,6 +24,7 @@
   </div>
   <HeroesComponent/>
   <ProductComponent/>
+  <OrderComponent/>
   <TestimoniComponent/>
   <FAQsComponet/>
   <FooterComponent/>
@@ -36,6 +37,7 @@ import ProductComponent from './ProductsComponent.vue'
 import TestimoniComponent from './TestimoniComponent.vue';
 import FAQsComponet from './FAQsComponet.vue';
 import FooterComponent from './FooterComponet.vue';
+import OrderComponent from './OrderComponent.vue';
 export default {
   name: 'HelloWorld',
   components: {
@@ -44,7 +46,8 @@ export default {
     ProductComponent,
     TestimoniComponent,
     FAQsComponet,
-    FooterComponent
+    FooterComponent,
+    OrderComponent
 }
 }
 </script>
