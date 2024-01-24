@@ -215,6 +215,7 @@
 
 </style>
 <script>
+
   export default {
     name: 'CheckoutComponent'
   }
